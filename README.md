@@ -16,7 +16,7 @@
 
 ### Compile
 
-Have [go](https://golang.org/doc/install) workspace (setup)[https://www.ardanlabs.com/blog/2016/05/installing-go-and-your-workspace.html] on your machine
+Have [go](https://golang.org/doc/install) workspace [setup](https://www.ardanlabs.com/blog/2016/05/installing-go-and-your-workspace.html) on your machine
 
 ```bash
 go get -u github.com/apzuk/cron
@@ -38,5 +38,5 @@ docker run apzuk/cron -f --debug \* \* \* \* \*
 
 docker run apzuk/cron -f --debug */4 \* 8-14 \* \*
 
-docker run apzuk/cron -f --debug */4 \* 8-14 3-7/2 \*
+docker run apzuk/cron -f --debug */4 \* 8-14 3-7/2 \* /usr/bin/find
 ```
