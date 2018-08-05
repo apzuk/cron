@@ -9,8 +9,8 @@
 
 * Cron expression consists of only numbers. `mon` | `january` | `@monthly` are not supported
 * `*` is passed as an argument backslashed `\*`
-* The next argument after the expression is taken as the `command`
-* Rules are tested according this source https://crontab.guru
+* The first argument after the cron expression is taken as the `command`
+* Rules are tested according to this [source](https://crontab.guru) 
 
 ## Usage
 
