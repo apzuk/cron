@@ -9,7 +9,7 @@
 
 * Cron expression consists of only numbers. `mon` | `january` | `@monthly` are not supported
 * `*` is passed as an argument backslashed `\*`
-* The following argument after the expression is taken as the `command`
+* The next argument after the expression is taken as the `command`
 * Rules are tested according this source https://crontab.guru
 
 ## Usage
@@ -26,7 +26,7 @@ go build -o cron cmd/main.go
 ./cron args...
 ```
 
-### Compile
+### Docker
 
 Alternatively, if you have docker on your machine, run it on Docker
 
