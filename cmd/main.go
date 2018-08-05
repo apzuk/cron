@@ -12,7 +12,7 @@ func main() {
 	c := cron.Parse(os.Args[1:]...)
 
 	if c == nil {
-		log.Fatal("No cron expression detected in")
+		log.Fatalf("No cron expression detected in command `%s`", strings.Join(os.Args[:1], " "))
 	}
 
 	fmt.Printf("%-14s| %v\n", "minute", strings.Trim(strings.Join(strings.Fields(fmt.Sprint([]int(c.Minute))), " "), "[]"))
