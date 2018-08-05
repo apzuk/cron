@@ -19,9 +19,9 @@
 Have [go](https://golang.org/doc/install) workspace [setup](https://www.ardanlabs.com/blog/2016/05/installing-go-and-your-workspace.html) on your machine
 
 ```bash
-cd $GOPATH
-git clone git@github.com:apzuk/cron.git
-cd $GOPATH/cron
+cd $GOPATH/src
+git clone git@github.com:apzuk/cron.git cron
+cd cron
 go build -o cron cmd/main.go
 ./cron args...
 ```
