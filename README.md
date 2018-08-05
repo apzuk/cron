@@ -28,7 +28,7 @@ go build -o cron cmd/main.go
 
 ### Docker
 
-Alternatively, if you have docker on your machine, run it on Docker
+Alternatively, if you have docker on your machine, run it on Docker.
 
 ```bash
 docker run apzuk/cron args...
