@@ -43,3 +43,5 @@ docker run apzuk/cron -f --debug */4 \* 8-14 \* \*
 
 docker run apzuk/cron -f --debug */4 \* 8-14 3-7/2 \* /usr/bin/find
 ```
+
+For more examples see cron_test.go
